@@ -1,10 +1,64 @@
 <?php 
 $count = 0;
-if($_POST["ans1"]!=' ' and $_POST["ans1"]=='c')
+if($_POST["ans1"]=='c')
 	$count++;
 if($_POST["ans2"]=='b')
 	$count++;
 if($_POST["ans3"]=='b')
+	$count++;
+if($_POST["ans4"]=='d')
+	$count++;
+if($_POST["ans5"]=='d')
+	$count++;
+if($_POST["ans6"]=='d')
+	$count++;
+if($_POST["ans7"]=='d')
+	$count++;
+if($_POST["ans8"]=='a')
+	$count++;
+if($_POST["ans9"]=='a')
+	$count++;
+if($_POST["ans10"]=='d')
+	$count++;
+if($_POST["ans11"]=='a')
+	$count++;
+if($_POST["ans12"]=='b')
+	$count++;
+if($_POST["ans13"]=='b')
+	$count++;
+if($_POST["ans14"]=='b')
+	$count++;
+if($_POST["ans15"]=='b')
+	$count++;
+if($_POST["ans16"]=='c')
+	$count++;
+if($_POST["ans17"]=='b')
+	$count++;
+if($_POST["ans18"]=='a')
+	$count++;
+if($_POST["ans19"]=='a')
+	$count++;
+if($_POST["ans20"]=='d')
+	$count++;
+if($_POST["ans21"]=='b')
+	$count++;
+if($_POST["ans22"]=='c')
+	$count++;
+if($_POST["ans23"]=='b')
+	$count++;
+if($_POST["ans24"]=='a')
+	$count++;
+if($_POST["ans25"]=='c')
+	$count++;
+if($_POST["ans26"]=='c')
+	$count++;
+if($_POST["ans27"]=='a')
+	$count++;
+if($_POST["ans28"]=='a')
+	$count++;
+if($_POST["ans29"]=='b')
+	$count++;
+if($_POST["ans30"]=='c')
 	$count++;
 echo "Your total score is " . $count;
 ?>
